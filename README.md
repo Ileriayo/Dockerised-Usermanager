@@ -15,9 +15,9 @@ This application was developed using [ExpressJS](http://expressjs.com/). MongoDB
 * First make a note of the ip that docker is configured to use. You can also use the command `docker-machine ip` to check for the ip.
 * Clone the repository by entering the following command in the terminal.
 `git clone https://github.com/Ileriayo/Dockerised-Usermanager.git`
-* Navigate to the project folder using `cd Dockerised-Usermanager` in the terminal
-* Run the script in the directory with the command `start Script.sh`
-* From your browser, navigate to http://<docker-machine ip>:3000/users
+* Navigate to the project folder using `cd Dockerised-Usermanager` in the terminal.
+* Run the script in the directory with the command `start Script.sh` .
+* From your browser, navigate to `http://<docker-machine ip>:3000/users` .
 
 ### API Documentation
 The API only has one endpoint which is the `/users` endpoint for saving users to the database. The endpoint works with the HTTP verbs: `POST`, `GET`, `PUT`, `DELETE`.
@@ -105,7 +105,7 @@ password: janedoe
 
 
 
-### Author
+### Author(s)
 **Ileriayo Adebiyi [Docker]** - Software Developer
 
 **Olajide Bolaji 'Nuel [NodeJS API]** - Software Developer at Andela
